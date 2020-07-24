@@ -14,9 +14,11 @@ There should be no necessary libraries to run the code here beyond the Anaconda 
 ## <a name="Project"></a>Project Motivation
 For my Data Scientist Nanodegree Program by Udacity, I was interested the 2019 Soccer Player information from the top 9 European Leagues to gain insights regarding:
 
-- Which European soccer league has the highest average market value per player?
-- Does the position (Goalkeeper, Defense, Midfield, Forward) correlate with the market value of a player?
-- Does the age affect the market value of a player?
+- How are the market values distributed?
+- What's the average market value by position?
+- Which league has the highest average market value per player?
+- Which clubs has the highest average market value per player?
+- Who are the most valuable soccer players?
 - Can you predict the league of a player based on his specific position, nationality and market value by using the k-nearest-neighbor (KNN) classifier? 
 
 ## <a name="File"></a>File Descriptions
