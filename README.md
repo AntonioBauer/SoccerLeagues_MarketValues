@@ -26,4 +26,4 @@ There is one Jupyter Notebook which includes the analysis to answer the question
 The main findings of the code can be found at the post available here.
 
 ## <a name="License"></a>Licensing, Authors, Acknowledgements
-Must give credit to A Richt for the data. You can find the Licensing for the data and other descriptive information at the Kaggle link available [here](https://www.kaggle.com/aricht1995/european-football-market-values/version/6 "here"). Otherwise, feel free to use the code here as you would like!
+Must give credit to A Richt for the data. You can find the Licensing for the data and other descriptive information at the Kaggle link available [here](https://medium.com/@antonio.f.bauer/europes-2019-20-soccer-season-is-almost-over-don-t-be-too-sad-and-check-out-these-interesting-e81f489847a4?source=friends_link&sk=86d25c1fc79f3cc987f6b32338614d5b "here"). Otherwise, feel free to use the code here as you would like!
