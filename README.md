@@ -43,7 +43,7 @@ For the missing values in column Height (Meters) I decided to impute values by u
 I replaced the missing values in columns Highest Market Value (Euros) and Highest Market Value Date, by the applicable values included in column Market Value (Euros) and Last Updated Date.
 
 #### 3.3. Creating dummy variables
-I created dummy variables for the categorical columns Nationality and Position 2 in order to use them as features in the ML model. I understand that creating dummy variables can create scaling issues by adding a great amount of columns. This is the reason I only encoded two categorical values. Given the size of the data set, the advantages outweigh the disadvantages of using dummy variables in this case.
+I created dummy variables for the categorical columns Nationality and Position 2 in order to use them as features in the ML model. I understand that creating dummy variables can create scaling issues by adding a great amount of columns. This is the reason I only encoded two categorical values. Given the size of the data set, the advantages (e.g. easy interpretation) outweigh the disadvantages of using dummy variables in this case.
 
 ### 4. Data Modeling
 I used descriptive statistics to gain interesting insights regarding the market value and k-nearest-neighbor (KNN) classifier to predict the league of a player, based on his specific position, nationality and market value.
