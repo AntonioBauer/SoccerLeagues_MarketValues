@@ -28,7 +28,7 @@ The European Football Market Values data set is available from [Kaggle](https://
 
 ### 2. Data Understanding
 The data set has 4,308 rows and 35 columns. 26 out of 35 columns (74.39%) have NULL values. Also 8 out of these 26 columns having more than 75% NULL values. The distribution of the data types is as follows:
-Object data type: 28, int64 data type: 4, float64 data type: 3
+Object data type: 28, int64 data type: 4, float64 data type: 3.
 
 There were 6 columns (Birth Date, JoinedClub, LastExtension, ContractExpiration. Last Updated Date, Highest Market Value Date) defined as object type which were changed to datetime64[ns] type.
 
@@ -39,7 +39,7 @@ There were 18 columns dropped from the DataFrame that contained a high amount of
 #### 3.2. Rows with NaN values
 I dropped 20 rows with NULL values in columns Market Value (Euros) and Position. 
 This approach was chosen since it's a good practice according to StatisticsSolutions [StatisticsSolutions](https://www.statisticssolutions.com/missing-values-in-data/ "StatisticsSolutions") to drop missing values if the number of cases of missing values is extremely small (less than 5%). In this case the percentage of missing values is 1.8%.
-For the missing values in column Height (Meters) I decided to impute values by using the mean. I understand that using the best practice mentioned above, the missing values could've been dropped as well. However, this is part of a training program so my goal is to practice imputing quantitative and categorical variables. This is why I decided to impute the missing values in column Height (Meters) instead of dropping them. For the missing values in column Foot and Position 2 I decided to impute values by using the mode. Again, the best practice would've suggested to drop those missing values. I decided to impute the mode for training purposes and especially for column Position 2, the mode was used because it's more accurate as it's calculated based on column Position.
+For the missing values in column Height (Meters) I decided to impute values by using the mean. I understand that using the best practice mentioned above, the missing values could've been dropped as well. However, this is part of a training program so my goal is to practice imputing quantitative and categorical variables. This is why I decided to impute the missing values in column Height (Meters) instead of dropping them. For the missing values in column Foot and Position 2, I decided to impute values by using the mode. Again, the best practice would've suggested to drop those missing values. I decided to impute the mode for training purposes and especially for column Position 2, the mode was used because it's more accurate as it's calculated based on column Position.
 I replaced the missing values in columns Highest Market Value (Euros) and Highest Market Value Date, by the applicable values included in column Market Value (Euros) and Last Updated Date.
 
 #### 3.3. Creating dummy variables
